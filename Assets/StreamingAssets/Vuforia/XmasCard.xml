@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+<Tracking>
+<ModelTarget name="XmasCard"/>
+</Tracking>
+
+<Assembly name="XmasCards_assembly">
+<Part name="XmasCard" translation="0 0 0" rotation="AD: 0 0 1 0"/>
+<EntryPoint name="viewpoint_0000" translation="-0.260575 4.07942 17.8102" rotation="AD: 0.9999839430057298 -0.03044629410059456 0.19189128054764376 197.706">
+
+</EntryPoint>
+
+</Assembly>
+</QCARConfig>
