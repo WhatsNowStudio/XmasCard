@@ -230,6 +230,8 @@ ModelImporter:
     100448: tail  5
     100450: tail  6
     100452: tail  7
+    100454: Rope_L
+    100456: Rope_R
     400000: Area Light
     400002: 'Area Light '
     400004: bar1
@@ -457,6 +459,8 @@ ModelImporter:
     400448: tail  5
     400450: tail  6
     400452: tail  7
+    400454: Rope_L
+    400456: Rope_R
     2000000: Camera
     2100000: santa_red
     2100002: santa_white
@@ -479,12 +483,16 @@ ModelImporter:
     2300006: Mesh
     2300008: 'Mesh '
     2300010: Mesh  1
+    2300012: Rope_L
+    2300014: Rope_R
     3300000: bar1
     3300002: bar2
     3300004: bar3
     3300006: Mesh
     3300008: 'Mesh '
     3300010: Mesh  1
+    3300012: Rope_L
+    3300014: Rope_R
     4300000: Mesh
     4300002: 'Mesh '
     4300004: 'Mesh '
@@ -503,7 +511,10 @@ ModelImporter:
     4300030: bar3
     4300032: reins_r
     4300034: reins_c
+    4300036: Rope_L
+    4300038: Rope_R
     7400000: modo_Anim
+    7400002: Take 001
     9500000: //RootNode
     10800000: Area Light
     10800002: 'Area Light '
@@ -520,6 +531,7 @@ ModelImporter:
     13700018: reins_l
     13700020: reins_r
     13700022: Rudolph
+    2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
     importMaterials: 1
