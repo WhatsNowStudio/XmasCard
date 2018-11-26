@@ -1,22 +1,39 @@
 fileFormatVersion: 2
-guid: 44f3fca13c6816548bcdea177bd1653b
+guid: ae8401e1f322aaa4994c1821a952a03a
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
-    100002: g1
-    100004: g2
+    100002: LOGOMODEL
+    100004: Rectangle
+    100006: Square
+    100008: Round
+    100010: Cone001
     400000: //RootNode
-    400002: g1
-    400004: g2
-    2100000: g1Mat
-    2100002: g2Mat
-    2300000: g1
-    2300002: g2
-    3300000: g1
-    3300002: g2
-    4300000: g1
-    4300002: g2
+    400002: LOGOMODEL
+    400004: Rectangle
+    400006: Square
+    400008: Round
+    400010: Cone001
+    2100000: 'Material #37'
+    2100002: 'Material #36'
+    2300000: LOGOMODEL
+    2300002: Rectangle
+    2300004: Square
+    2300006: Round
+    2300008: Cone001
+    3300000: LOGOMODEL
+    3300002: Rectangle
+    3300004: Square
+    3300006: Round
+    3300008: Cone001
+    4300000: LOGOMODEL
+    4300002: Square
+    4300004: Rectangle
+    4300006: Round
+    4300008: Cone001
+    7400000: Take 001
+    9500000: //RootNode
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -68,8 +85,8 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
+    previousCalculatedGlobalScale: 0.0254
+    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -93,7 +110,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 0
+  animationType: 2
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
