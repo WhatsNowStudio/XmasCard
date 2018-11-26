@@ -706,6 +706,12 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: "\u5E95\u677F\u984F\u8272"
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: "\u5B57\u984F\u8272"
         fsmObjectParams: []
         fsmVarParams:
         - variableName: String/Json/Org
@@ -900,6 +906,30 @@ MonoBehaviour:
             stringValues: []
             vector4Values: []
             objectReferences: []
+        - variableName: "String/\u5EE0\u5546/\u5B57\u984F\u8272"
+          objectType: UnityEngine.Object
+          useVariable: 1
+          type: 4
+          floatValue: 0
+          intValue: 0
+          boolValue: 0
+          stringValue: 
+          vector4Value: {x: 0, y: 0, z: 0, w: 0}
+          objectReference: {fileID: 0}
+          arrayValue:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            type: -1
+            objectTypeName: 
+            floatValues: []
+            intValues: 
+            boolValues: 
+            stringValues: []
+            vector4Values: []
+            objectReferences: []
         fsmArrayParams: []
         fsmEnumParams: []
         fsmFloatParams: []
@@ -920,7 +950,7 @@ MonoBehaviour:
         - 
         - 
         byteData: 
-        arrayParamSizes: 0100000001000000010000000100000001000000010000000500000005000000
+        arrayParamSizes: 0100000001000000010000000100000001000000010000000600000006000000
         arrayParamTypes:
         - HutongGames.PlayMaker.FsmString
         - HutongGames.PlayMaker.FsmVar
@@ -932,7 +962,7 @@ MonoBehaviour:
         - HutongGames.PlayMaker.FsmVar
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 120000000c000000120000000c000000270000001700000017000000120000000c000000120000000c000000270000001700000017000000120000000c000000120000000c000000270000001700000017000000120000000c00000012000000120000001200000012000000120000000c00000027000000270000002700000027000000270000001700000017000000
+        paramDataType: 120000000c000000120000000c000000270000001700000017000000120000000c000000120000000c000000270000001700000017000000120000000c000000120000000c000000270000001700000017000000120000000c0000001200000012000000120000001200000012000000120000000c0000002700000027000000270000002700000027000000270000001700000017000000
         paramName:
         - jsonString
         - keys
@@ -962,7 +992,9 @@ MonoBehaviour:
         - 
         - 
         - 
+        - 
         - values
+        - 
         - 
         - 
         - 
@@ -970,8 +1002,8 @@ MonoBehaviour:
         - 
         - successEvent
         - failureEvent
-        paramDataPos: 00000000000000000100000001000000000000000000000001000000020000000200000003000000030000000100000002000000030000000400000004000000050000000500000002000000040000000500000006000000060000000700000008000000090000000a0000000b0000000700000003000000040000000500000006000000070000000600000007000000
-        paramByteDataSize: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+        paramDataPos: 00000000000000000100000001000000000000000000000001000000020000000200000003000000030000000100000002000000030000000400000004000000050000000500000002000000040000000500000006000000060000000700000008000000090000000a0000000b0000000c000000070000000300000004000000050000000600000007000000080000000600000007000000
+        paramByteDataSize: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
     - name: Start
       description: "#\u627E\u5230\u591A\u91CD\u76EE\u6A19"
       colorIndex: 0
@@ -1377,14 +1409,18 @@ MonoBehaviour:
         - HutongGames.PlayMaker.Actions.uGuiTextSetText
         - HutongGames.PlayMaker.Actions.ConvertHexToColor
         - HutongGames.PlayMaker.Actions.SetMaterialColor
+        - HutongGames.PlayMaker.Actions.ConvertHexToColor
+        - HutongGames.PlayMaker.Actions.uGuiGraphicSetColor
         customNames:
         - 
         - 
         - 
-        actionEnabled: 010101
-        actionIsOpen: 010101
-        actionStartIndex: 00000000040000000b000000
-        actionHashCodes: 09fbab04c087250331ae6403
+        - 
+        - 
+        actionEnabled: 0101010101
+        actionIsOpen: 0000000000
+        actionStartIndex: 00000000040000000b0000001100000018000000
+        actionHashCodes: 09fbab04c087250331ae6403c0872503c9f57904
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams:
@@ -1400,6 +1436,14 @@ MonoBehaviour:
           gameObject:
             useVariable: 1
             name: Obj/FontBox
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        - ownerOption: 1
+          gameObject:
+            useVariable: 1
+            name: Obj/Text
             tooltip: 
             showInInspector: 0
             networkSync: 0
@@ -1429,6 +1473,12 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: _Color
+        - useVariable: 1
+          name: "String/\u5EE0\u5546/\u5B57\u984F\u8272"
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 
         fsmObjectParams:
         - useVariable: 0
           name: 
@@ -1440,7 +1490,31 @@ MonoBehaviour:
         fsmVarParams: []
         fsmArrayParams: []
         fsmEnumParams: []
-        fsmFloatParams: []
+        fsmFloatParams:
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
         fsmIntParams:
         - useVariable: 0
           name: 
@@ -1449,6 +1523,18 @@ MonoBehaviour:
           networkSync: 0
           value: 0
         fsmBoolParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
         - useVariable: 0
           name: 
           tooltip: 
@@ -1476,17 +1562,31 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: {r: 0, g: 0, b: 0, a: 1}
+        - useVariable: 1
+          name: Clor/Public
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {r: 0, g: 0, b: 0, a: 1}
+        - useVariable: 1
+          name: Clor/Public
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {r: 0, g: 0, b: 0, a: 1}
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams:
         - 
         - 
-        byteData: 00010000
+        - 
+        - 
+        byteData: 00010000010000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 1400000012000000110000000100000012000000010000001900000011000000170000001700000001000000140000001000000020000000120000001900000001000000
+        paramDataType: 14000000120000001100000001000000120000000100000019000000110000001700000017000000010000001400000010000000200000001200000019000000010000001200000001000000190000001100000017000000170000000100000014000000190000000f0000000f0000000f0000000f0000001100000001000000
         paramName:
         - gameObject
         - text
@@ -1505,8 +1605,23 @@ MonoBehaviour:
         - namedColor
         - color
         - everyFrame
-        paramDataPos: 0000000000000000000000000000000001000000010000000000000001000000000000000100000002000000010000000000000000000000020000000100000003000000
-        paramByteDataSize: 0000000000000000000000000100000000000000010000000000000000000000000000000000000001000000000000000000000000000000000000000000000001000000
+        - hexaString
+        - appendHashChar
+        - color
+        - success
+        - successEvent
+        - failureEvent
+        - everyframe
+        - gameObject
+        - color
+        - red
+        - green
+        - blue
+        - alpha
+        - resetOnExit
+        - everyFrame
+        paramDataPos: 0000000000000000000000000000000001000000010000000000000001000000000000000100000002000000010000000000000000000000020000000100000003000000030000000400000002000000020000000200000003000000050000000200000003000000000000000100000002000000030000000300000006000000
+        paramByteDataSize: 0000000000000000000000000100000000000000010000000000000000000000000000000000000001000000000000000000000000000000000000000000000001000000000000000100000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000001000000
     events:
     - name: FINISHED
       isSystemEvent: 1
@@ -1552,6 +1667,12 @@ MonoBehaviour:
         value: 
       - useVariable: 1
         name: "String/\u5EE0\u5546/\u540D\u7A31"
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: 
+      - useVariable: 1
+        name: "String/\u5EE0\u5546/\u5B57\u984F\u8272"
         tooltip: 
         showInInspector: 0
         networkSync: 0
@@ -1631,7 +1752,7 @@ MonoBehaviour:
       enumVariables: []
       categories:
       - 
-      variableCategoryIDs: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+      variableCategoryIDs: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
     description: 
     docUrl: 
     showStateLabel: 0
