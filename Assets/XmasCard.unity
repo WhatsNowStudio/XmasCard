@@ -2011,6 +2011,18 @@ Prefab:
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 4490371077874424, guid: 5b6354f74fce2e84597bfc518cf20a44, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.113
+      objectReference: {fileID: 0}
+    - target: {fileID: 4850055895102010, guid: 5b6354f74fce2e84597bfc518cf20a44, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.117
+      objectReference: {fileID: 0}
+    - target: {fileID: 4754840407880354, guid: 5b6354f74fce2e84597bfc518cf20a44, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.104
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5b6354f74fce2e84597bfc518cf20a44, type: 2}
   m_IsPrefabAsset: 0
