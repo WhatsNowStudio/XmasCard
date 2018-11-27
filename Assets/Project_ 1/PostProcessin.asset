@@ -112,7 +112,7 @@ MonoBehaviour:
     m_Enabled: 1
     m_Settings:
       tonemapping:
-        tonemapper: 1
+        tonemapper: 0
         neutralBlackIn: 0.02
         neutralWhiteIn: 10
         neutralBlackOut: 0
@@ -124,13 +124,13 @@ MonoBehaviour:
         temperature: 0
         tint: 0
         hueShift: 0
-        saturation: 1.34
+        saturation: 1.28
         contrast: 1.02
       channelMixer:
         red: {x: 1, y: 0, z: 0}
         green: {x: 0, y: 1, z: 0}
         blue: {x: 0, y: 0, z: 1}
-        currentEditingChannel: 2
+        currentEditingChannel: 1
       colorWheels:
         mode: 0
         log:
@@ -138,7 +138,7 @@ MonoBehaviour:
           power: {r: 0.9917756, g: 1, b: 0.9835527, a: 0}
           offset: {r: 0.9632217, g: 1, b: 0.9837166, a: 0}
         linear:
-          lift: {r: 1, g: 0.5104288, b: 0.67377216, a: 0}
+          lift: {r: 1, g: 0.73772377, b: 0.9392466, a: 0}
           gamma: {r: 1, g: 0.96981364, b: 0.9376233, a: 0}
           gain: {r: 1, g: 0.99966574, b: 0.979208, a: 0}
       curves:

@@ -303,6 +303,7 @@ GameObject:
   - component: {fileID: 114289977427171456}
   - component: {fileID: 114259621202268070}
   - component: {fileID: 114503085856079562}
+  - component: {fileID: 114508284076747362}
   m_Layer: 0
   m_Name: Button_Photo
   m_TagString: Untagged
@@ -1605,13 +1606,13 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 0
+          value: 1
         - useVariable: 0
           name: 
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 0
+          value: 1
         - useVariable: 0
           name: 
           tooltip: 
@@ -1820,7 +1821,20 @@ MonoBehaviour:
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
+  eventHandlerComponentsAdded: 1
+--- !u!114 &114508284076747362
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1586078373996574}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1079068393, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TargetFSMs:
+  - {fileID: 114503085856079562}
 --- !u!114 &114537613774751564
 MonoBehaviour:
   m_ObjectHideFlags: 1
