@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: wns
-  productName: "\u767C\u8166 \u8056\u8A95\u795D\u5361"
+  productName: "\u548C\u548C\u6A5F\u68B0 \u8056\u8A95\u795D\u5361"
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
