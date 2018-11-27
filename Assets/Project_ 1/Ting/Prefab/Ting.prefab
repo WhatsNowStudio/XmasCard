@@ -1527,23 +1527,17 @@ MonoBehaviour:
         colorIndex: 0
       actionData:
         actionNames:
-        - HutongGames.PlayMaker.Actions.TakeCameraScreenshot
+        - HutongGames.PlayMaker.Actions.TakeScreenshot
         - HutongGames.PlayMaker.Actions.Wait
         customNames:
         - 
         - 
         actionEnabled: 0101
         actionIsOpen: 0101
-        actionStartIndex: 000000000e000000
-        actionHashCodes: 57110d0448c01101
+        actionStartIndex: 0000000006000000
+        actionHashCodes: 2c0af40148c01101
         unityObjectParams: []
-        fsmGameObjectParams:
-        - useVariable: 1
-          name: Camera
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: {fileID: 0}
+        fsmGameObjectParams: []
         fsmOwnerDefaultParams: []
         animationCurveParams: []
         functionCallParams: []
@@ -1564,12 +1558,6 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: Xmas
-        - useVariable: 1
-          name: String
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 
         fsmObjectParams: []
         fsmVarParams: []
         fsmArrayParams: []
@@ -1587,44 +1575,8 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 2560
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 1440
+          value: 0
         fsmBoolParams:
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 1
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 1
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 1
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 1
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 1
         - useVariable: 0
           name: 
           tooltip: 
@@ -1644,32 +1596,24 @@ MonoBehaviour:
         fsmQuaternionParams: []
         stringParams:
         - Go
-        byteData: 0000000000
+        byteData: 0100000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 13000000100000001000000011000000110000001200000011000000110000001200000011000000110000000700000011000000120000000f0000001700000001000000
+        paramDataType: 0700000012000000120000001100000010000000110000000f0000001700000001000000
         paramName:
-        - gameObject
-        - resWidth
-        - resHeight
-        - Auto
-        - useCurrentRes
-        - filePath
-        - useMypictures
-        - useDefaultFolder
+        - destination
+        - customPath
         - filename
         - autoNumber
-        - useJpeg
-        - setDepth
-        - debugOn
-        - StoreFilePath
+        - superSize
+        - debugLog
         - time
         - finishEvent
         - realTime
-        paramDataPos: 0000000000000000010000000000000001000000000000000200000003000000010000000400000005000000000000000600000002000000000000000000000004000000
-        paramByteDataSize: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000001000000
+        paramDataPos: 000000000000000001000000000000000000000001000000000000000000000004000000
+        paramByteDataSize: 040000000000000000000000000000000000000000000000000000000000000001000000
     - name: Start
       description: 
       colorIndex: 0
@@ -1916,7 +1860,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.3
-  m_Text: "we wish you a merry christmas!!\n       By SUNSHINE Development"
+  m_Text: "we wish you a merry christmas!!\n                    By \r Kuancheng Co."
 --- !u!198 &198023881972256932
 ParticleSystem:
   m_ObjectHideFlags: 1
