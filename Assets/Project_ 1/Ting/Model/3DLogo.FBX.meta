@@ -9,29 +9,35 @@ ModelImporter:
     100006: Square
     100008: Round
     100010: Cone001
+    100012: Snowfloor001
     400000: //RootNode
     400002: LOGOMODEL
     400004: Rectangle
     400006: Square
     400008: Round
     400010: Cone001
+    400012: Snowfloor001
     2100000: 'Material #37'
     2100002: 'Material #36'
+    2100004: No Name
     2300000: LOGOMODEL
     2300002: Rectangle
     2300004: Square
     2300006: Round
     2300008: Cone001
+    2300010: Snowfloor001
     3300000: LOGOMODEL
     3300002: Rectangle
     3300004: Square
     3300006: Round
     3300008: Cone001
+    3300010: Snowfloor001
     4300000: LOGOMODEL
     4300002: Square
     4300004: Rectangle
     4300006: Round
     4300008: Cone001
+    4300010: Snowfloor001
     7400000: Take 001
     9500000: //RootNode
   externalObjects: {}
